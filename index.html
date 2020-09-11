@@ -1,0 +1,261 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Coffee App</title>
+<link href="css/framework7.bundle.min.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+	
+	<section id="app">
+     
+     
+     <section class="panel panel-left panel-cover">
+		 <div class="bg-menu">
+		 Menu de opciones 
+		 </div>
+		
+			<div class="list list-menu">
+			<ul>
+				<li>
+					<a href="/home/" class="item-link item-content panel-close">
+						<div class="item-media">
+							<i class="material-icons">home</i>
+						</div>
+						<div class="item-inner">
+							Inicio
+						</div>
+
+					</a>
+				</li>
+				<li>
+					<a href="/productos/" class="item-link item-content panel-close">
+						<div class="item-media">
+							<i class="material-icons">local_cafe</i>
+						</div>
+						<div class="item-inner">
+							Productos
+						</div>
+
+					</a>
+				</li>
+				<li>
+					<a href="/info/" class="item-link item-content panel-close">
+						<div class="item-media">
+							<i class="material-icons">whatshot</i>
+						</div>
+						<div class="item-inner">
+							Caliente
+						</div>
+
+					</a>
+				</li>
+				
+				<li>
+					<a href="/info/" class="item-link item-content panel-close">
+						<div class="item-media">
+							<i class="material-icons">ac_unit</i>
+						</div>
+						<div class="item-inner">
+							Helado
+						</div>
+
+					</a>
+				</li>
+				<li>
+					<a href="/productos/" class="item-link item-content panel-close">
+						<div class="item-media">
+							<i class="material-icons">local_offer</i>
+						</div>
+						<div class="item-inner">
+							Promociones
+						</div>
+
+					</a>
+				</li>
+				<li>
+					<a href="/home/" class="item-link item-content panel-close">
+						<div class="item-media">
+							<i class="material-icons">card_giftcard</i>
+						</div>
+						<div class="item-inner">
+							Tarjetas de regalo
+						</div>
+
+					</a>
+				</li>
+				<li>
+					<a href="/home/" class="item-link item-content  panel-close">
+						<div class="item-media">
+							<i class="material-icons">shopping_cart</i>
+						</div>
+						<div class="item-inner">
+							Mis ordenes
+						</div>
+
+					</a>
+				</li>
+				<li>
+					<a href="/info/" class="item-link item-content panel-close">
+						<div class="item-media">
+							<i class="material-icons">person</i>
+						</div>
+						<div class="item-inner">
+							Perfil
+						</div>
+
+					</a>
+				</li>
+			</ul>
+
+		</div>
+     	
+     </section>
+     
+     <section class="panel panel-right panel-cover panel-close">
+     	<h2 class="block-title">Menú Lateral Derecho</h2>
+     </section>
+     
+     
+      <!-- Your main view, should have "view-main" class -->
+      <div class="view view-main view-init">
+        <!-- Initial Page, "data-name" contains page name -->
+        <section data-name="home" class="page">
+
+          <!-- Top Navbar -->
+          <nav class="navbar">
+            <div class="navbar-bg"></div>
+            <div class="navbar-inner">
+             	<div class="right">
+             		<a href="#" class="link panel-open" data-panel=".panel-left">
+             			<span class="material-icons">menu</span>
+             		</a>
+             	</div>
+              	<div class="title">CoffeeApp</div>
+            </div>
+          </nav>
+
+
+          <!-- Scrollable page content -->
+          <article class="page-content">
+				
+				<h3 class="block-title">Hola, Alex</h3>
+		  		<div class="block">
+		  			<h2 class="block-title-medium">¿Deseas tomar un café?</h2>
+		  		</div>
+			  	
+        		<div class="block">
+        			
+        			<article class="card top">
+        				<div class="card-content card-content-padding">
+        					<div class="row">
+        						<article class="col-60">
+        							<h5>5.0</h5>
+        							<h4>Café del día</h4>
+        							<h2>Latte Macchiato</h2>
+        							<span class="precio">L. 49.99</span>
+        						</article>
+        						<article class="col-40">
+        							<img src="img/cafe-capuccino.png" class="img-fluid">
+        						</article>
+        					</div>        					        					
+        				</div>
+        			</article>
+        			
+        			
+        			<div class="row categoria-enlace">
+        				<article class="col">
+        					<h3 class="block-title no-margin">Popular</h3>
+        				</article>
+						
+        				<article class="col text-align-right">
+        					<a href="/productos/" class="link">Ver todos <span class="material-icons">arrow_forward</span></a>
+        				</article>
+        			</div>
+        			
+        			
+        			<section id="home-productos">
+        			
+        				<div class="swiper-container swiper-init" data-speed="400" data-space-between="5" data-slides-per-view="1">
+							<div class="swiper-wrapper">
+								<div class="swiper-slide">
+									
+									<article class="card">
+										<div class="card-content card-content-padding">
+											<img src="img/cafe-capuccino.png" class="img-fluid">
+											<h2>Café Capuccino</h2>
+											<h3>Caliente</h3>
+										</div>
+										<div class="card-footer">
+											<span>L 39.99</span>
+											<a href="#" class="link"><span class="material-icons">add</span></a>
+										</div>
+									</article>
+									
+								</div>	
+								<div class="swiper-slide">
+									
+									<article class="card">
+										<div class="card-content card-content-padding">
+											<img src="img/cafe-espresso.png" class="img-fluid">
+											<h2>Café Espresso</h2>
+											<h3>Caliente</h3>
+										</div>
+										<div class="card-footer">
+											<span>L 29.99</span>
+											<a href="#" class="link"><span class="material-icons">add</span></a>
+										</div>
+									</article>
+									
+								</div>								
+								
+							</div>
+						</div>
+        				
+        			</section><!-- home-productos -->
+        			
+        			
+        		</div>
+         
+          </article>
+			
+        </section><!--page-->
+	<div class="toolbar tabbar tabbar-labels toolbar-bottom">
+	  <div class="toolbar-inner">
+		<a href="/home/" class="tab-link ">
+		  <i class="material-icons">home</i>
+		  <span class="tabbar-label">Inicio</span>
+		</a>
+		<a href="#tab2" class="tab-link">
+		  <i class="material-icons">local_mall</i>
+		  <span class="tabbar-label">Ordenes</span>
+		</a>
+		  <a href="/productos/" class="tab-link">
+		  <i class="material-icons">local_cafe</i>
+		  <span class="tabbar-label">Productos</span>
+		</a>
+		  <a href="#tab2" class="tab-link">
+		  <i class="material-icons">person</i>
+		  <span class="tabbar-label">Perfil</span>
+		</a>
+	  </div>
+	</div>
+		  
+
+      </div><!--view-->
+		
+    </section>
+	
+	
+	
+	
+	
+	<script src="js/framework7.bundle.min.js"></script>
+	<script src="js/my-app.js"></script>
+	
+</body>
+</html>
