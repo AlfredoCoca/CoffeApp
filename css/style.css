@@ -78,10 +78,12 @@ h1,h2,h3,h4,h5,h6{
 #home-productos .card-footer a{
 	color: #fff;
 }
+
+
 .productos .item-media img{
 	width: 80px;
 }
-.productos .item.title{
+.productos .item-title{
 	color: var(--negro);
 	font-weight: 600;
 }
@@ -96,46 +98,71 @@ h1,h2,h3,h4,h5,h6{
 	font-size: 14px;
 	color: var(--negro);
 }
+
+
+.tabbar-labels .tab-link-highlight{
+	display: none !important;
+}
+
+
+
 .info-producto{
-	background-color: #EEEEEE;
-	padding-bottom: 40px;
+	background-color: #eee;
 	padding: 20px 0 40px 20px;
 }
+
 .ingre-producto img{
 	width: 220px;
 	transform: translateY(-5%);
 	margin-left: -50px;
-	margin-top: -100%
+	margin-top: -100%;
 }
-.precio-info span{
-	color: var(--negro);
-	font-size: 20px;
-	font-weight: 600;
-	
-}
-.precio.info{
+
+
+.precio-info{
 	text-align: center;
 	padding-top: 5px;
 }
+.precio-info span{
+	color: var(--negro);
+	font-size: 18px;
+	font-weight: 600;
+}
+
+
 .bg-menu{
 	background-color: var(--verde);
-	color: #FFFFFF;
+	color: #fff;
 	padding: 20px;
 	text-align: center;
 }
-
 .list-menu i{
 	color: var(--verde);
 }
-.panel.panel-left{
-	background-color: #fafafafa;
-	
+.list-menu{
+	font-size: 14px;
+	margin-top: 0;
 }
 
-.list-menu{
-	margin-top: 0;
-	font-size: 14px;
+.panel.panel-left{
+	background-color: #fafafa;
 }
+.panel-left .list-menu ul{
+	background-color: transparent !important;
+}
+
+.popup-registro{
+	z-index: 999999 !important;
+}
+
+
+
+
+
+
+
+
+
 
 
 

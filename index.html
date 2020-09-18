@@ -15,11 +15,12 @@
      
      
      <section class="panel panel-left panel-cover">
-		 <div class="bg-menu">
-		 Menu de opciones 
-		 </div>
-		
-			<div class="list list-menu">
+     	
+     	<div class="bg-menu">
+     		Menú de Opciones
+     	</div>
+     	
+     	<div class="list list-menu">
 			<ul>
 				<li>
 					<a href="/home/" class="item-link item-content panel-close">
@@ -40,7 +41,6 @@
 						<div class="item-inner">
 							Productos
 						</div>
-
 					</a>
 				</li>
 				<li>
@@ -51,10 +51,8 @@
 						<div class="item-inner">
 							Caliente
 						</div>
-
 					</a>
 				</li>
-				
 				<li>
 					<a href="/info/" class="item-link item-content panel-close">
 						<div class="item-media">
@@ -63,18 +61,16 @@
 						<div class="item-inner">
 							Helado
 						</div>
-
 					</a>
 				</li>
 				<li>
-					<a href="/productos/" class="item-link item-content panel-close">
+					<a href="/home/" class="item-link item-content panel-close">
 						<div class="item-media">
 							<i class="material-icons">local_offer</i>
 						</div>
 						<div class="item-inner">
 							Promociones
 						</div>
-
 					</a>
 				</li>
 				<li>
@@ -83,40 +79,38 @@
 							<i class="material-icons">card_giftcard</i>
 						</div>
 						<div class="item-inner">
-							Tarjetas de regalo
+							Tarjetas de Regalo
 						</div>
-
 					</a>
 				</li>
 				<li>
-					<a href="/home/" class="item-link item-content  panel-close">
+					<a href="/home/" class="item-link item-content panel-close">
 						<div class="item-media">
 							<i class="material-icons">shopping_cart</i>
 						</div>
 						<div class="item-inner">
-							Mis ordenes
+							Mis Ordenes
 						</div>
-
 					</a>
 				</li>
 				<li>
-					<a href="/info/" class="item-link item-content panel-close">
+					<a href="/home/" class="item-link item-content panel-close">
 						<div class="item-media">
-							<i class="material-icons">person</i>
+							<i class="material-icons">perm_identity</i>
 						</div>
 						<div class="item-inner">
 							Perfil
 						</div>
-
 					</a>
 				</li>
 			</ul>
 
 		</div>
+     
      	
      </section>
      
-     <section class="panel panel-right panel-cover panel-close">
+     <section class="panel panel-right panel-cover">
      	<h2 class="block-title">Menú Lateral Derecho</h2>
      </section>
      
@@ -144,6 +138,7 @@
           <article class="page-content">
 				
 				<h3 class="block-title">Hola, Alex</h3>
+	  			
 		  		<div class="block">
 		  			<h2 class="block-title-medium">¿Deseas tomar un café?</h2>
 		  		</div>
@@ -171,7 +166,6 @@
         				<article class="col">
         					<h3 class="block-title no-margin">Popular</h3>
         				</article>
-						
         				<article class="col text-align-right">
         					<a href="/productos/" class="link">Ver todos <span class="material-icons">arrow_forward</span></a>
         				</article>
@@ -223,38 +217,154 @@
          
           </article>
 			
-        </section><!--page-->
-	<div class="toolbar tabbar tabbar-labels toolbar-bottom">
-	  <div class="toolbar-inner">
-		<a href="/home/" class="tab-link ">
-		  <i class="material-icons">home</i>
-		  <span class="tabbar-label">Inicio</span>
-		</a>
-		<a href="#tab2" class="tab-link">
-		  <i class="material-icons">local_mall</i>
-		  <span class="tabbar-label">Ordenes</span>
-		</a>
-		  <a href="/productos/" class="tab-link">
-		  <i class="material-icons">local_cafe</i>
-		  <span class="tabbar-label">Productos</span>
-		</a>
-		  <a href="#tab2" class="tab-link">
-		  <i class="material-icons">person</i>
-		  <span class="tabbar-label">Perfil</span>
-		</a>
-	  </div>
-	</div>
+        </section><!-- page -->
 		  
+      	<div class="toolbar tabbar tabbar-labels toolbar-bottom">
+		  <div class="toolbar-inner">
+			<a href="/home/" class="tab-link">
+			  <i class="material-icons">home</i>
+			  <span class="tabbar-label">Inicio</span>
+			</a>
+			<a href="#tab2" class="tab-link">
+			  <i class="material-icons">local_mall</i>
+			  <span class="tabbar-label">Ordenes</span>
+			</a>
+			<a href="/productos/" class="tab-link">
+			  <i class="material-icons">local_cafe</i>
+			  <span class="tabbar-label">Productos</span>
+			</a>
+			<a href="#tab2" class="tab-link">
+			  <i class="material-icons">person</i>
+			  <span class="tabbar-label">Perfil</span>
+			</a>
+		  </div>
+		</div>
 
-      </div><!--view-->
+      </div><!-- view -->
 		
     </section>
 	
 	
+	<section id="login">
+		<div class="login-screen modal-in modal-login">
+		  <!-- Default view-page layout -->
+		  <div class="view">
+			<div class="page login-screen-page">
+			  <!-- page-content has additional login-screen content -->
+			  <div class="page-content login-screen-content">
+				<div class="login-screen-title">Coffee Shop</div>
+				<!-- Login form -->
+				<form>
+				  <div class="list">
+					<ul>
+					  <li class="item-content item-input">
+						<div class="item-inner">
+						  <div class="item-title item-label">Usuario</div>
+						  <div class="item-input-wrap">
+							<input type="text" id="username" name="username" placeholder="Usuario">
+							<span class="input-clear-button"></span>
+						  </div>
+						</div>
+					  </li>
+					  <li class="item-content item-input">
+						<div class="item-inner">
+						  <div class="item-title item-label">Contraseña</div>
+						  <div class="item-input-wrap">
+							<input type="password" id="password" name="password" placeholder="Contraseña">
+							<span class="input-clear-button"></span>
+						  </div>
+						</div>
+					  </li>
+					</ul>
+				  </div>
+				  <div class="list block">
+					<ul>
+					  <li>
+						<a href="#" id="btnLogin" class="button button-fill">Ingresar</a>
+					  </li>
+					</ul>
+					<div class="block-footer">¿No tienes una cuenta?, <a href="#" class="popup-open" data-popup=".popup-registro">Regístrate</a>.</div>
+				  </div>
+				</form>
+			  </div>
+			</div>
+		  </div>
+		</div>	
+			
+	</section>
 	
 	
+	<section id="registro">
+		<div class="popup popup-registro">
+			<h2 class="block-title">Registro</h2>
+			
+			<div class="block">
+				<form>
+				  <div class="list">
+					<ul>
+				  	<li class="item-content item-input">
+						<div class="item-inner">
+						  <div class="item-title item-label">Nombre</div>
+						  <div class="item-input-wrap">
+							<input type="text" id="name" name="name" placeholder="Nombre">
+							<span class="input-clear-button"></span>
+						  </div>
+						</div>
+					  </li>
+					  <li class="item-content item-input">
+						<div class="item-inner">
+						  <div class="item-title item-label">Correo electrónico</div>
+						  <div class="item-input-wrap">
+							<input type="email" id="email" name="email" placeholder="Correo electrónico">
+							<span class="input-clear-button"></span>
+						  </div>
+						</div>
+					  </li>
+					  <li class="item-content item-input">
+						<div class="item-inner">
+						  <div class="item-title item-label">Teléfono</div>
+						  <div class="item-input-wrap">
+							<input type="tel" id="phone" name="phone" placeholder="Teléfono">
+							<span class="input-clear-button"></span>
+						  </div>
+						</div>
+					  </li>
+					  <li class="item-content item-input">
+						<div class="item-inner">
+						  <div class="item-title item-label">Usuario</div>
+						  <div class="item-input-wrap">
+							<input type="text" id="username" name="username" placeholder="Usuario">
+							<span class="input-clear-button"></span>
+						  </div>
+						</div>
+					  </li>
+					  <li class="item-content item-input">
+						<div class="item-inner">
+						  <div class="item-title item-label">Contraseña</div>
+						  <div class="item-input-wrap">
+							<input type="password" id="password" name="password" placeholder="Contraseña">
+							<span class="input-clear-button"></span>
+						  </div>
+						</div>
+					  </li>
+					</ul>
+				  </div>
+				  <div class="list block">
+					<ul>
+					  <li>
+						<a href="#" id="btnRegistro" class="button button-fill">Regístrarme</a>
+					  </li>
+					</ul>
+					<div class="block-footer">Ya tengo una cuenta, <a href="#" class="popup-close">Cancelar</a>.</div>
+				  </div>
+				</form>
+			</div>
+			
+		</div>
+	</section>
 	
-	<script src="js/framework7.bundle.min.js"></script>
+	
+	<script src="js/framework7.bundle.min.js"></script>s
 	<script src="js/my-app.js"></script>
 	
 </body>

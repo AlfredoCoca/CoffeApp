@@ -11,9 +11,9 @@ var app = new Framework7({
 	},
 	cache:false,
 	cacheDuration: 0,
-	modalTitle: 'Diseño Web II',
+	modalTitle: 'CoffeeApp',
 	dialog: {
-		title: 'Diseño Web II',
+		title: 'CoffeeApp',
 		buttonOk: 'Aceptar',
   	},
 	routes: [
@@ -32,22 +32,43 @@ var app = new Framework7({
     	url: 'info.html',
     	name: 'info',
   		}
-		
 	]
 });
 
 // Export selectors engine
 var $$ = Dom7;
 
+
 $$('#btnComprar').on('click', function () {
-  app.dialog.alert('!Tu compra fue realizada correctamente!');
+  app.dialog.alert('¡ Tu compra fue realizada correctamente !');
 });
 
+
 $$('#btnConfirmar').on('click', function () {
-  app.dialog.confirm('¿Desea procesar su compra?', function () {
-    app.dialog.alert('!Tu compra fue realizada correctamente!');
+  app.dialog.confirm('¿Seguro desea procesar su compra?', function () {
+    app.dialog.alert('¡ Tu compra fue realizada correctamente !');
   });
 });
+
+
+$$('#btnLogin').on('click', function () {
+	var Usuario = $$('#username').val();
+	var Password = $$('#password').val();
+	
+  	if(Usuario == "jframos" && Password == "123"){
+		app.dialog.alert('¡ Bienvenido a Coffee Shop !');
+		app.loginScreen.close(".modal-login");
+		
+	}else{
+		app.dialog.alert('Lo sentimos, sus datos son incorrectos');
+	}
+	
+	
+});
+
+
+
+
 
 
 
